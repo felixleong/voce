@@ -427,11 +427,13 @@ article.grid iframe {
         overflow: hidden;
     }
     .blog.home article.post {
-        width: 50%;
-        margin: 0;
-        padding-right: 10px;
+        width: 44%;
+        margin: 1em;
+        padding: 0 0.7em 0 0.7em;
         display: inline-block;
-        float: left;
+        vertical-align: top;
+        border-radius: 0.3em;
+        border: 1px solid #dedede;
     }
     .blog.home article.post .read-more, .blog.home article.post .entry-footer{
         display: none;

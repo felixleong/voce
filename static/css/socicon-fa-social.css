@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Socicon-FontAwesome-Social';
+  src:  url('../fonts/Socicon-FontAwesome-Social.eot?9hwm0u');
+  src:  url('../fonts/Socicon-FontAwesome-Social.eot?9hwm0u#iefix') format('embedded-opentype'),
+    url('../fonts/Socicon-FontAwesome-Social.ttf?9hwm0u') format('truetype'),
+    url('../fonts/Socicon-FontAwesome-Social.woff?9hwm0u') format('woff'),
+    url('../fonts/Socicon-FontAwesome-Social.svg?9hwm0u#Socicon-FontAwesome-Social') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="socicon-fa-"], [class*=" socicon-fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Socicon-FontAwesome-Social' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.socicon-fa-comments:before {
+  content: "\f086";
+}
+.socicon-fa-angle-up:before {
+  content: "\f106";
+}
+.socicon-fa-vk:before {
+  content: "\e900";
+}
+.socicon-fa-bitcoin:before {
+  content: "\e901";
+}
+.socicon-fa-btc:before {
+  content: "\e901";
+}
+.socicon-fa-delicious:before {
+  content: "\e019";
+}
+.socicon-fa-deviantart:before {
+  content: "\e01a";
+}
+.socicon-fa-facebook:before {
+  content: "\e028";
+}
+.socicon-fa-flickr:before {
+  content: "\e02d";
+}
+.socicon-fa-foursquare:before {
+  content: "\e030";
+}
+.socicon-fa-github:before {
+  content: "\e032";
+}
+.socicon-fa-instagram:before {
+  content: "\e044";
+}
+.socicon-fa-lastfm:before {
+  content: "\e04a";
+}
+.socicon-fa-linkedin:before {
+  content: "\e04c";
+}
+.socicon-fa-mail:before {
+  content: "\e050";
+}
+.socicon-fa-pinterest:before {
+  content: "\e063";
+}
+.socicon-fa-reddit:before {
+  content: "\e06c";
+}
+.socicon-fa-rss:before {
+  content: "\e071";
+}
+.socicon-fa-skype:before {
+  content: "\e073";
+}
+.socicon-fa-soundcloud:before {
+  content: "\e078";
+}
+.socicon-fa-spotify:before {
+  content: "\e079";
+}
+.socicon-fa-stackexchange:before {
+  content: "\e07a";
+}
+.socicon-fa-stackoverflow:before {
+  content: "\e07b";
+}
+.socicon-fa-steam:before {
+  content: "\e07e";
+}
+.socicon-fa-telegram:before {
+  content: "\e087";
+}
+.socicon-fa-twitch:before {
+  content: "\e08c";
+}
+.socicon-fa-twitter:before {
+  content: "\e08d";
+}
+.socicon-fa-vimeo:before {
+  content: "\e093";
+}
+.socicon-fa-vine:before {
+  content: "\e094";
+}
+.socicon-fa-whatsapp:before {
+  content: "\e099";
+}
+.socicon-fa-youtube:before {
+  content: "\e0a5";
+}
+.socicon-fa-bitbucket:before {
+  content: "\e909";
+}
+.socicon-fa-gitlab:before {
+  content: "\e945";
+}
+.socicon-fa-hackernews:before {
+  content: "\e946";
+}
+.socicon-fa-pixiv:before {
+  content: "\e94f";
+}
