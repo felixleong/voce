@@ -3,7 +3,7 @@ body {
   background-color: #FFFFFF;
   word-wrap: break-word;
   font-family: 'Lora', serif;
-  line-height: 2;
+  line-height: 1.8;
 }
 
 a {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 p {
-  margin: 0.8em 0;
+  margin: 0.9em 0;
 }
 
 * > p:first-child {
