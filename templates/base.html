@@ -89,18 +89,16 @@
         <span class="site-name"><a href="{{ SITEURL }}"><img src="{{ USER_LOGO_URL }}" class="attachment-full size-full" alt="logo"></a>
         </span><!-- end of .site-name -->
       </div><!-- end of #logo -->
-      {#
       <div class="tagline">
           {% if TAG_URL %}
             {% for tag, articles in tags|sort %}
-              <a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if  output_file == tag.url }}>{{ tag }} ({{ articles|count }})</a> &#124;
+              <a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if  output_file == tag.url }}>{{ tag }} ({{ articles|count }})</a>{% if not loop.last %} &#124;{% endif %}
             {% endfor %}
           {% endif %}
           {% if ARCHIVES_URL %}
               <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}" {{ 'class="active"' if  output_file == ARCHIVES_URL }}>{{ 'Archives ('+ articles|count|string + ')' if  articles|count > all_articles|count  else 'Archives (' + all_articles|count|string + ')'}}</a>
           {% endif %}
       </div>
-      #}
     </div>
 
   </header><!-- #masthead -->
